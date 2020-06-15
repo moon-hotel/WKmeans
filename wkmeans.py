@@ -109,12 +109,6 @@ def wkmeans(X, K, belta, max_iter):
 
 
 class WKMeans:
-    n_clusters = 0
-    max_iter = 0
-    belta = 0
-    best_labels, best_centers = None, None
-    isConverge = False
-    cost = None
 
     def __init__(self, n_clusters=3, max_iter=20, belta=7.0):
         self.n_clusters = n_clusters
